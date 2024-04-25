@@ -22,8 +22,8 @@ The response is a JSON object containing the analyzed documents.
 
 ## Usage
 
-Clone the repository.
-Navigate to the folder corresponding to your preferred language (Java, JavaScript/TypeScript, Python, or .NET).
+Clone the repository.  
+Navigate to the folder corresponding to your preferred language (Java, JavaScript/TypeScript, Python, or .NET).  
 Follow the standard setup and debug instructions for your chosen language, vscode launch settings are setup to debug each of them.
 
 ## Folder Structure
