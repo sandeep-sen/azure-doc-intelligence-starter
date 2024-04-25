@@ -1,0 +1,7 @@
+azure:
+  docintelligence:
+    endpoint: <YOUR_AZURE_AI_DOC_INTELLIGENCE_ENDPOINT>
+    key: <API_KEY (PREFERABLE USE ENVIRONMENT VARIABLE)>
+
+server:
+    port: 8080

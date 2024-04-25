@@ -1,0 +1,45 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:15722",
+      "sslPort": 44386
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5044",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DOCUMENT_INTELLIGENCE_ENDPOINT":"<YOUR_AZURE_AI_DOC_INTELLIGENCE_ENDPOINT>",
+        "DOCUMENT_INTELLIGENCE_API_KEY":"<DO_NOT_PUT_SECRETS_HERE_USE_ENV_VARIABLES-API_KEY>"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7187;http://localhost:5044",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DOCUMENT_INTELLIGENCE_ENDPOINT":"<YOUR_AZURE_AI_DOC_INTELLIGENCE_ENDPOINT>",
+        "DOCUMENT_INTELLIGENCE_API_KEY":"<DO_NOT_PUT_SECRETS_HERE_USE_ENV_VARIABLES-API_KEY>"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

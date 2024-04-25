@@ -1,0 +1,34 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "DocIntelligenceApplication",
+      "request": "launch",
+      "mainClass": "com.microsoft.docintelligence.DocIntelligenceApplication",
+      "projectName": "spring-cloud-azure-starter-integration-sample-servicebus"
+    },
+    {
+      "name": "Python Debugger: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Nest App",
+      "cwd": "${workspaceFolder}/javascript",
+      "program": "${workspaceFolder}/javascript/node_modules/@nestjs/cli/bin/nest.js",
+      "args": [
+        "start",
+        "--debug",
+        "--watch"
+      ],
+      "restart": true,
+      "protocol": "inspector",
+      "console": "integratedTerminal"
+    }
+  ]
+}
